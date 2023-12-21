@@ -11,7 +11,8 @@ def parse_data(csv_data, row_number, element_number) -> bool:
 
 if __name__ == "__main__":
     file_path, row_number, column_number =input().split()
-
+    row_number=int(row_number)
+    column_number=int(column_number)
     row_number -= 1
     column_number -= 1
 
