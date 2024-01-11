@@ -1,6 +1,6 @@
 import numpy as np
 
-def calculate():
+def task():
     totals, products = set(), set()
     for i in range(1, 7):
         for j in range(1, 7):
@@ -28,5 +28,6 @@ def calculate():
     values = [e_AB, e_A, e_B, e_A_B, inf_AB]
 
     return {ind:val for (ind, val) in zip(names, values)}
-
-print(calculate())
+    
+if __name__ == '__main__':
+    print(task())
